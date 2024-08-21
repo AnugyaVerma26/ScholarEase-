@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<link rel="stylesheet" href="signup.css">
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <lable><b>First Name</b></lable>
+          <input type="text" placeholder="Enter your First Name" required>
+          <br>
+          <lable><b> Last Name</b></lable>
+          <input type="text" placeholder="Enter your Last Name" required>
+          <br>
+            <lable><b>Gender</b></lable>
+          <select name = "dropdown"> 
+          <option value = "Male">Male</option>
+          <option value = "Female">Female</option>
+          <option value = "Others">Others</option>
+          </select>
+          <br>
+          <lable><b>State</b></lable>
+          <input type="text" placeholder="Enter your state" required>  
+          <br>
+          <lable><b>Contact No</b></lable>
+          <input type="text" placeholder="Enter Contact No" required>   
+          <br>
+          <label><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+        <br>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        <br>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>  
+      
+      <button type="button" class="Signin"><a href="loginpage.html">Sign in</a></button>
+      <br>
+      <button type="button" class="Homepage"><a href="index.html">Back to Homepage</a></button>
+    
+</body>
+</html>
